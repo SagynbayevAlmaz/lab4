@@ -1,0 +1,15 @@
+<h2>Product Details</h2>
+
+<div class="box">
+  <div class="box1">
+    <img src="{{ product.img }}" alt="product" width="300px">
+  </div>
+  <div *ngIf="product">
+    <h3>{{ product.name }}</h3>
+    <h4>{{ product.price | currency }}</h4>
+    <p>{{ product.description }}</p>
+    <button (click)="addToCart(product)">Buy</button>
+    <a href="{{product.link}}" class="link">More about product</a>
+  </div>
+  
+</div>

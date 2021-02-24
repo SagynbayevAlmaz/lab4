@@ -1,0 +1,21 @@
+/* .productImage{
+    display: flex;
+    justify-content: center;
+
+} */
+.box{
+    display: flex;
+    /* flex-direction: column; */
+}
+.box2{
+    margin: 40px;
+}
+.productRating{
+    display: flex;
+}
+.starImage{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
