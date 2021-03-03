@@ -19,3 +19,23 @@
     margin-top: 10px;
     margin-left: 5px;
 }
+.shareButton{
+    font-size: 17px;
+    height: 30px;
+}
+.removeButton{
+    margin-left: 20px;
+    height: 30px;
+    font-size: 17px;
+    background-color: red;
+}
+.likeBox{
+    display: flex;
+    margin-right: 20px;
+}
+.likeButton{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    height: 30px;
+}

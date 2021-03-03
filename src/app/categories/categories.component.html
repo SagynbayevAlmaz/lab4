@@ -1,0 +1,13 @@
+<h1>Categories</h1>
+<div *ngFor="let category of categories" class="box">
+  <div class="box1"> 
+    <img src="{{ category.img }}" alt="category Image" width="200px" class="categoryImage">
+  </div>
+  <div class="box2">
+    <h2>
+      <a [title]=" category.name" [routerLink]="['categories/', category.name]">
+        {{ category.name }}
+      </a>
+    </h2>
+  </div>
+</div>
